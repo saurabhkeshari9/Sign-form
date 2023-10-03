@@ -1,0 +1,93 @@
+*{padding: 0;
+ margin: 0;
+ font-family: 'popins',serif;
+ box-sizing: border-box;
+
+}
+
+body{
+    background:#8992f2;
+    height: 100vh;
+
+    
+}
+
+.container{
+    border: 2px solid white;
+    width: 30%;
+    position: absolute; top: 25vh;left:65vh;
+    min-width: 450px;
+    padding: 30px 40px;
+}
+#newtask{
+    background: white;
+    padding: 40px 30px ;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+#newtask input{
+    height: 5vh;
+    font-size: 20px;
+    position: relative;
+    color: black;
+}
+
+#newtask button{
+    height: 5vh;
+    float: right;
+    position: relative;
+    color: white;
+    background: #8992f2;
+    width: 15%;
+    border-radius: 5px;
+    border-color: #8992f2;
+    cursor: pointer;
+}
+
+#tasks{
+    background: white;
+    padding: 40px 30px;
+    margin-top: 60px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.textsize{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'popins',serif;
+    display: inherit;
+}
+
+.deleteTask{
+    justify-content: space-between;
+    float: right;
+    background-color: #8992f2;
+    border-color: azure;
+}
+
+.editTask{
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    left: -1vh;
+    background-color: #8992f2;
+    border-color: azure;
+}
+
+.hold {
+    height: 5vh;
+    float: right;
+    position: relative; bottom: 215px;
+    color: white;
+    background: #8992f2;
+    width: 15%;
+    border-radius: 5px;
+    border-color: #8992f2;
+    cursor: pointer;
+    display: none;
+}

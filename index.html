@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="server url">
+        <div class="container">
+            <div class="form">
+            <h1 class="page-signup">SIGN UP</h1>
+            <div class="name">
+            👤
+            <input type="text" id="name" placeholder="Enter your name"></div>
+            <div class="email">
+            📧
+            <input type="email" id="email" placeholder="Enter your email"></div>
+            <div class="password">
+            🔑
+            <input type="password" id="password" placeholder="Enter your password"></div>
+            </div>
+            <div class="btn-field">
+                <button type="button" onclick="signIn()">SIGN IN</button>
+                <button type="button" onclick="signUp()">SIGN UP</button>
+            </div>
+            <div class="popup">
+                <div class="popup-content">
+                    <div class="popup-email">
+                    👤
+                    <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="popup-pass">
+                    🔑
+                    <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="popup-button">
+                    <button type="button" onclick="signInButton()">SIGN IN</button>
+                    <img src="closeimage.png" alt="close" class="close">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>
